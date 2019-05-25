@@ -1,0 +1,15 @@
+<!ELEMENT inmobiliariacasasmartin (visita+)>
+<!ELEMENT visita (propiedad+,cliente+)>
+<!ELEMENT propiedad (ref_pr,direccion_pr,numero,localidad,m2,n_hab,propietario,tlf_propietario,particular_banco,financiacion,precio,captador)>
+<!ELEMENT ref_pr (#PCDATA)>
+<!ELEMENT direccion_pr (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT localidad (#PCDATA)>
+<!ELEMENT m2 (#PCDATA)>
+<!ELEMENT ingrediente (nombre, cantidad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT procedimiento (paso+)>
+<!ELEMENT paso (#PCDATA)>
+<!ATTLIST tiempo_elaboracion t_medida (minutos)>
+<!ATTLIST cantidad medida (vaso|cucharadita)>

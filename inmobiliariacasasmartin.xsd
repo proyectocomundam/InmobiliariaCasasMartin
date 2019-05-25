@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<xsd:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
+<!-- Esquema XML munyecas rusas -->
+<xsd:element name="inmobiliariacasasmartin">
+    <xsd:complexType>
+        <xsd:sequence>
+            <!-- Elemento complejo VISITA -->
+            <xsd:element name="visita">
+                <xsd:complexType>
+                    <xsd:sequence>
+                        <!-- Elemento complejo PROPIEDAD -->
+                        <xsd:element name="propiedad">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="ref_pr" type="xsd:integer"/>
+                                    <xsd:element name="direccion_pr" type="xsd:string"/>
+                                    <xsd:element name="numero" type="xsd:integer"/>
+                                    <xsd:element name="localidad" type="xsd:string" default="Vecindario"/>
+                                    <xsd:element name="m2" type="xsd:float"/>
+                                    <xsd:element name="n_hab" type="xsd:integer"/>
+                                    <xsd:element name="propietario" type="xsd:string"/>
+                                    <xsd:element name="tlf_propietario" type="xsd:string">
+                                        <xsd:simpleType>
+                                        <!-- Restriccion: debe tener 9 de longitud -->
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:length value="9"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                    <xsd:element name="particular_banco" type="xsd:string"/>
+                                    <xsd:element name="financiacion" type="xsd:float"/>
+                                    <xsd:element name="precio">
+                                        <xsd:simpleType>
+                                        <!-- Restriccion: 2 decimales -->
+                                            <xsd:restriction base="xsd:decimal">
+                                                <xsd:fractionDigits value="2"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                    <xsd:element name="captador" type="xsd:string"/>                                  
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                        <xsd:element name="cliente">
+                            <xsd:complexType>
+                                <xsd:sequence>
+                                    <xsd:element name="cod_cl" type="xsd:integer"/>
+                                    <xsd:element name="dni_cl">
+                                    <xsd:simpleType>
+                                    <!-- Restriccion: debe tener 9 de longitud -->
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:length value="9"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                    <xsd:element name="nom_cl" type="string"/>
+                                    <xsd:element name="ap_cl" type="string"/>
+                                    <xsd:element name="email_cl" type="string"/>
+                                    <xsd:element name="tlf_cl" type="string">
+                                        <xsd:simpleType>
+                                        <!-- Restriccion: debe tener 9 de longitud -->
+                                            <xsd:restriction base="xsd:string">
+                                                <xsd:length value="9"/>
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                    <xsd:element name="estado">
+                                        <xsd:simpleType>
+                                        <!-- Restriccion: solo puede ser uno de estos valores -->
+                                            <xsd:restriction base="xs:string">
+                                                <xsd:enumeration value="Buscando"/>
+                                                <xsd:enumeration value="Ya no busca"/>
+                                                <xsd:enumeration value="Compró con nosotros"/>
+                                                <xsd:enumeration value="Compró con otros">
+                                            </xsd:restriction>
+                                        </xsd:simpleType>
+                                    </xsd:element>
+                                    <xsd:element name="comercial" type="string"/>
+                                    <xsd:element name="administrador" type="string"/>
+                                    <xsd:element name="oficina" type="string"/>
+                                </xsd:sequence>
+                            </xsd:complexType>
+                        </xsd:element>
+                        <xsd:element name="fecha_visita" type="date"/>
+                        <xsd:element name="hora_visita" type="time"/>
+                    </xsd:sequence>
+                </xsd:complexType>
+        </xsd:sequence>
+        <xsd:attribute name="dni" type="xsd:string" default="98765432B">
+            <xsd:simpleType>
+            <!-- Restriccion: debe tener 9 de longitud -->
+                <xsd:restriction base="xs:string">
+                    <xsd:length value="9"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="movil" type="xsd:string">
+            <xsd:simpleType>
+            <!-- Restriccion: debe tener 9 de longitud -->
+                <xsd:restriction base="xs:string">
+                    <xsd:length value="9"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+        <xsd:attribute name="tlf" type="xsd:string" default="928282828">
+            <xsd:simpleType>
+            <!-- Restriccion: debe tener 9 de longitud -->
+                <xsd:restriction base="xs:string">
+                    <xsd:length value="9"/>
+                </xsd:restriction>
+            </xsd:simpleType>
+        </xsd:attribute>
+    </xsd:complexType>
+</xsd:element>

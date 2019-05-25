@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="inmobiliariacasasmartin.xsl"?>
+<inmobiliariacasasmartin codigo="123456" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation="inmobiliariacasasmartin.xsd">
+    <visita>
+        <propiedad>
+            <ref_pr>10001</ref_pr>
+            <direccion_pr>C/Che-guevara</direccion_pr>
+            <numero>70</numero>
+            <localidad>Vecindario</localidad>
+            <m2>90.00</m2>
+            <n_hab>3</n_hab>
+            <propietario>Josefa Suarez</propietario>
+            <tlf_propietario>617776226</tlf_propietario>
+            <particular_banco>Particular</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>95000,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>1</cod_cl>
+            <dni_cl>99999999Z</dni_cl>
+            <nom_cl>Carla</nom_cl>
+            <ap_cl>Gonzalez Martin</ap_cl>
+            <email_cl>cgm@gmail.com</email_cl>
+            <tlf_cl>666554433</tlf_cl>
+            <estado>Buscando</estado>
+            <comercial movil="634567890">Maria Hernandez Casado</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>30/01/2019</fecha_visita>
+        <hora_visita>11:45:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10002</ref_pr>
+            <direccion_pr>Av Canarias</direccion_pr>
+            <numero>53</numero>
+            <localidad>Vecindario</localidad>
+            <m2>60.00</m2>
+            <n_hab>2</n_hab>
+            <propietario>Luis Martinez</propietario>
+            <tlf_propietario>654655678</tlf_propietario>
+            <particular_banco>Particular</particular_banco>
+            <financiacion>90</financiacion>
+            <precio>100000,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>7</cod_cl>
+            <dni_cl>35533566M</dni_cl>
+            <nom_cl>Curro</nom_cl>
+            <ap_cl>Jimenez Gallegos</ap_cl>
+            <email_cl>curro@gmail.com</email_cl>
+            <tlf_cl>612345678</tlf_cl>
+            <estado>Buscando</estado>
+            <comercial movil="676543210">Carlos Suarez Gonzalez</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>28/02/2019</fecha_visita>
+        <hora_visita>16:15:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10005</ref_pr>
+            <direccion_pr>C/Timimi</direccion_pr>
+            <numero>73</numero>
+            <localidad>Ingenio</localidad>
+            <m2>60.00</m2>
+            <n_hab>2</n_hab>
+            <propietario>Servihabitat</propietario>
+            <tlf_propietario>928666666</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>93500,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>3</cod_cl>
+            <dni_cl>77777777X</dni_cl>
+            <nom_cl>Noelia</nom_cl>
+            <ap_cl>Diaz Goyes</ap_cl>
+            <email_cl>n@hotmail.com</email_cl>
+            <tlf_cl>622322332</tlf_cl>
+            <estado>Buscando</estado>
+            <comercial movil="665432109">Pablo Montañez Vega</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>10/01/2019</fecha_visita>
+        <hora_visita>16:30:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10005</ref_pr>
+            <direccion_pr>C/Timimi</direccion_pr>
+            <numero>73</numero>
+            <localidad>Ingenio</localidad>
+            <m2>60.00</m2>
+            <n_hab>2</n_hab>
+            <propietario>Servihabitat</propietario>
+            <tlf_propietario>928666666</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>93500,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>5</cod_cl>
+            <dni_cl>77888787P</dni_cl>
+            <nom_cl>Pedro</nom_cl>
+            <ap_cl>Fernandez Diaz</ap_cl>
+            <email_cl>p@gmail.com</email_cl>
+            <tlf_cl>777886655</tlf_cl>
+            <estado>Ya no busca</estado>
+            <comercial movil="665432109">Pablo Montañez Vega</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>10/01/2019</fecha_visita>
+        <hora_visita>10:00:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10006</ref_pr>
+            <direccion_pr>Av America</direccion_pr>
+            <numero>150</numero>
+            <localidad>Ingenio</localidad>
+            <m2>100.00</m2>
+            <n_hab>3</n_hab>
+            <propietario>Servihabitat</propietario>
+            <tlf_propietario>928666666</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>130600,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>8</cod_cl>
+            <dni_cl>31234567N</dni_cl>
+            <nom_cl>Alberto</nom_cl>
+            <ap_cl>Baez Diaz</ap_cl>
+            <email_cl>al@gmail.com</email_cl>
+            <tlf_cl>611278979</tlf_cl>
+            <estado>Compró con nosotros</estado>
+            <comercial movil="634567890">Maria Hernandez Casado</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>07/02/2019</fecha_visita>
+        <hora_visita>12:15:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10007</ref_pr>
+            <direccion_pr>C/Tomas Morales</direccion_pr>
+            <numero>58</numero>
+            <localidad>Las Palmas</localidad>
+            <m2>90.00</m2>
+            <n_hab>3</n_hab>
+            <propietario>Casaktua</propietario>
+            <tlf_propietario>928333333</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>200000,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>6</cod_cl>
+            <dni_cl>54544533O</dni_cl>
+            <nom_cl>Maria</nom_cl>
+            <ap_cl>Perez Suarez</ap_cl>
+            <email_cl>mps@gmail.com</email_cl>
+            <tlf_cl>622332233</tlf_cl>
+            <estado>Compró con nosotros</estado>
+            <comercial movil="676543210">Carlos Suarez Gonzalez</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>30/01/2019</fecha_visita>
+        <hora_visita>09:30:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10008</ref_pr>
+            <direccion_pr>C/Moralito</direccion_pr>
+            <numero>110</numero>
+            <localidad>Doctoral</localidad>
+            <m2>50.00</m2>
+            <n_hab>1</n_hab>
+            <propietario>Casaktua</propietario>
+            <tlf_propietario>928333333</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>57000,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>2</cod_cl>
+            <dni_cl>88888888Y</dni_cl>
+            <nom_cl>Marco</nom_cl>
+            <ap_cl>Santana Alvarez</ap_cl>
+            <email_cl>msan@gmail.com</email_cl>
+            <tlf_cl>611212121</tlf_cl>
+            <estado>Buscando</estado>
+            <comercial movil="634567890">Maria Hernandez Casado</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>30/01/2019</fecha_visita>
+        <hora_visita>09:30:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10009</ref_pr>
+            <direccion_pr>C/Magallanes</direccion_pr>
+            <numero>15</numero>
+            <localidad>Playa de Arinaga</localidad>
+            <m2>70.00</m2>
+            <n_hab>2</n_hab>
+            <propietario>Roberto Pesquero</propietario>
+            <tlf_propietario>678900105</tlf_propietario>
+            <particular_banco>Particular</particular_banco>
+            <financiacion>100</financiacion>
+            <precio>78500,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>4</cod_cl>
+            <dni_cl>66666666W</dni_cl>
+            <nom_cl>David</nom_cl>
+            <ap_cl>Cruz Fernandez</ap_cl>
+            <email_cl>david@gmail.com</email_cl>
+            <tlf_cl>666776666</tlf_cl>
+            <estado>Buscando</estado>
+            <comercial movil="665432109">Pablo Montañez Vega</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>24/01/2019</fecha_visita>
+        <hora_visita>16:00:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10010</ref_pr>
+            <direccion_pr>C/Faya Rahucan</direccion_pr>
+            <numero>93</numero>
+            <localidad>Carrizal</localidad>
+            <m2>95.00</m2>
+            <n_hab>3</n_hab>
+            <propietario>Servihabitat</propietario>
+            <tlf_propietario>928666666</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>80</financiacion>
+            <precio>193500,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>10</cod_cl>
+            <dni_cl>43144334L</dni_cl>
+            <nom_cl>Rita</nom_cl>
+            <ap_cl>Marrero Peña</ap_cl>
+            <email_cl>rita@outlook.es</email_cl>
+            <tlf_cl>665454441</tlf_cl>
+            <estado>Ya no busca</estado>
+            <comercial movil="665432109">Pablo Montañez Vega</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>20/04/2019</fecha_visita>
+        <hora_visita>14:05:00</hora_visita>
+    </visita>
+    <visita>
+        <propiedad>
+            <ref_pr>10010</ref_pr>
+            <direccion_pr>C/Faya Rahucan</direccion_pr>
+            <numero>93</numero>
+            <localidad>Carrizal</localidad>
+            <m2>95.00</m2>
+            <n_hab>3</n_hab>
+            <propietario>Servihabitat</propietario>
+            <tlf_propietario>928666666</tlf_propietario>
+            <particular_banco>Banco</particular_banco>
+            <financiacion>80</financiacion>
+            <precio>193500,00</precio>
+            <captador dni="98765432B">Marco Alvarez Perdomo</captador>
+        </propiedad>
+        <cliente>
+            <cod_cl>11</cod_cl>
+            <dni_cl>54334555R</dni_cl>
+            <nom_cl>Adrián</nom_cl>
+            <ap_cl>Gallegos Sanchez</ap_cl>
+            <email_cl>adri@gmail.com</email_cl>
+            <tlf_cl>678432100</tlf_cl>
+            <estado>Compró con nosotros</estado>
+            <comercial movil="676543210">Carlos Suarez Gonzalez</comercial>
+            <administrador email="luis@cmartin.es">Luis Rodriguez Sanchez</administrador>
+            <oficina tlf="928282828">Av Canarias, 95</oficina>
+        </cliente>
+        <fecha_visita>09/05/2019</fecha_visita>
+        <hora_visita>11:15:00</hora_visita>
+    </visita>  
+</inmobiliariacasasmartin>

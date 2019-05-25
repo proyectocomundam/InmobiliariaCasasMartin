@@ -1,0 +1,109 @@
+/*Etiquetas estructura html*/
+html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    text-align: center;
+    background: url(img/fondo.png) no-repeat center center fixed;
+	background-size: 100% 100%;
+    margin: 0%;
+    padding: 0%;
+
+}
+section{
+    margin-bottom: 30px;
+
+}
+footer{
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    color: white;
+    font-family: Gabriola;
+    text-align: center;
+    font-size: 25px;
+}
+/*Etiquetas de la tabla*/
+table{
+    text-align:center;
+    font-family:Georgia;
+    background-color: white;
+    box-shadow: black 10px 10px 30px;
+    /* centrar */
+    margin: 0 auto;
+    text-align: left;
+}
+td, tr{
+	border: solid;
+	text-align: center;
+    border-collapse:collapse;
+    padding: 2px;
+    border-color: black;
+}
+th{
+	border: solid black;
+	background-color:rgb(78, 26, 121);
+	color: white;
+	font-family: Gabriola;
+	font-size: 20px;
+}
+/*Etiquetas de los titulos*/
+h1{
+    background-color: black;
+    text-shadow: 1px 1px 1px white;
+    text-decoration: underline;
+    color: blueviolet;
+    font-family: Gabriola;
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+    color: white;
+    text-shadow: 2px 2px 5px blueviolet;
+    background-color: black;
+    width: 30%;
+    padding: 5px;
+    border-radius: 15px;
+    border: dotted 3px white;
+    /* centrar */
+    margin: 0 auto;
+    text-align: center;
+    /* .. */
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* Etiqueta imagen */
+img{
+    width: 250px;
+    height: 250px;
+}
+/* Clase boton */
+.boton{
+	text-decoration: none;
+	background: black;
+	border-radius: 15px;
+	padding: 10px;
+	color:white;
+	border: solid 1px white;
+    cursor: pointer;
+    font-family: Georgia;
+    text-shadow: 2px 2px 2px blueviolet;
+    margin-right: 20px;
+
+}
+.boton:hover{
+	background: blueviolet;
+    color:black;
+    text-shadow: 2px 2px 2px white;
+    font-weight: bold;
+
+}
+.boton:active{
+	background: white;
+	color:blueviolet;
+	font-weight: bold;
+	font-size: 20px;
+	border: 2px solid;
+}
